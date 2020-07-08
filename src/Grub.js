@@ -11,5 +11,5 @@ var Grub = function(age, color, food) {
   this.food = 'jelly';
 };
 Grub.prototype.eat = function() {
-
+  return this.food;
 }
