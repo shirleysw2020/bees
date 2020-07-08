@@ -1,3 +1,27 @@
-var Grub = function() {
+/*.
+├── Grub
+│   └── Bee
+│       ├── HoneyMakerBee
+│       └── ForagerBee
+│          └── RetiredForagerBee
+*/
+var Grub = function(age, color, food) {
+  this.age = 0;
+  this.color = pink
+  this.food = jelly;
 };
 
+// subclass: Bee
+var Bee = function() {
+  Grub.call(this, )
+  this.age = 0;
+  this.color = pink
+  this.food = jelly;
+};
+Bee.prototype = Object.create(Grub.prototype);
+Bee.prototype.constructor = Grub;
+
+
+Bee.prototype.eat = function() {
+
+};
